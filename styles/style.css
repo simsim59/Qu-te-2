@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #96c1f8;
+}
+
+header{
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+
+#bateau
+{
+    transform: translate(-300px,350px);
+    animation: slidein 8s linear 1s 1 normal none;
+    animation-fill-mode: forwards;
+}
+@keyframes slidein {
+        from{
+            margin-left: -300px;
+            width: -800px;
+        }
+        
+        to{
+            margin-left: 900px;
+            width: -1600px;
+        }
+    }
+
+
+
+section{
+    background-image:url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+
+    
+}
+
+section div{
+    height: 100px;
+    width: 100px;
+    color: #80CEE1;
+    margin: 5px;
+    
+}    
+
+:nth-child(3){
+    color: gray;
+}
+
+section div:hover{
+    border-radius: 50%;
+    rotate: 360deg;
+    transition-duration:0.5s ;
+}
+
+
+  
+footer div{
+    height: 250px;
+    background-color: #5ee1e6;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+
+}
+#tresor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: grab;
+    
+} 
+
+
+
+
+
+    
+

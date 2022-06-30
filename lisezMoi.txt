@@ -1,0 +1,64 @@
+Sahariv,Sahariv ! Non mais ! Personne ne vas me prendre ma couleur. Maintenant,comment vais-je me sortir de cette magouille,
+Mais oui! Et toi,oui toi moussaillon, touche et bidouille le style!
+Mais je te préviens,tu ne dois pas toucher au HTML, sinon te ferai passer par dessus bord..
+
+
+Faction Front: Dans ton footer: -ajoute une icone (64x64) redirigeant vers ton profil linkedin
+-ajoute une github (64x64) redirigeant vers ton profil github
+
+Faction Back: None
+
+Faction Designer: -Remplace le bateau, par un canoé
+-Remplace le trésor, par un requin
+
+Ne supprime pas le CSS déjà écris
+Ajoute ton CSS à la suite
+
+
+
+
+header =>
+
+-Aligne au centre de la page "hello world" <h1>
+-Modifie la couleur de "hello world" <h1> en blanc 
+-Déplace l'image "bateau" sur les vagues
+-Quand le bateau est déplacé sur les vagues créer une animation avec "keyframes"; 
+    -> l'animation doit faire aller le bateau jusqu'au ponton et durer 8 secondes 
+(à la fin de l'animation le bateau doit rester sur le ponton)
+
+section => 
+
+Attribue une hauteur et une largeur de 100X100pixels à chacunes des <div> dans <section>
+Attribue la couleur héxadécimal "#80CEE1" et une marge de 5 pixels à chacunes des <div> dans <section>
+A l'aide de "flexbox" aligne horizontalement les 5 div dans section
+A l'aide de "flexbox" centre horizontalement les 5 div dans section
+
+Attribue la couleur "gris" à la <div(3)> dans section
+
+créer une "div :hover" qui transformera tes carrés en cercle lors du survol de la souris
+ajoute une rotation de 360degrés à ton hover
+ajoute une transition de 0.5s à ton "hover"
+
+footer => 
+
+centre le paragraphe du <footer>
+change la couleur du paragraphe en blanc
+modifie le fond gras "strong" en normal
+change la police du paragraphe footer en "Trebuchet MS"
+modifie la taille de la police footer à 18pixels
+
+centre ton image trésor
+Modifie le cursor souris en "grab". Cela ne s'applique qu'au trésor. 
+
+
+
+Bravo Ari le pirate cendrais apprécie ton aide et te souhaite bonne chance dans ta grande aventure.
+
+--- Quand tu as finis =>
+Préviens moi
+Vas sur le site Github.com
+Créer un nouveau référentiel privé
+Nom du référentiel: "quete2 css"
+Upload ton travail
+
+ENJOY
